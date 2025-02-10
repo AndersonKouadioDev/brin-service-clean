@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="w-full">
       {/* Main Footer Content */}
-      <div className="bg-[#002848] text-white px-8 py-10 ">
+      <div className="bg-[#002848] text-white px-8 pt-20 pb-10 ">
         <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo Section */}
           <div className="flex flex-col justify-start md:justify-start gap-4 items-start md:items-center">
@@ -71,7 +71,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright Bar */}
-        <div className="bg-white py-2 px-4 text-center text-primary text-sm">
+        <div className="bg-[#002848] py-6 px-4 text-center text-white border-t  text-sm">
           <p>
             Copyright Brin Service Clean, 2025 Tous droits réservés |{" "}
             <span>

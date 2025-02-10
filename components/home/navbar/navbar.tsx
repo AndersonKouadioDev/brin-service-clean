@@ -47,7 +47,7 @@ export default function Head() {
   return (
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
-      className="bg-white"
+      className="bg-white font-worksans"
       maxWidth="full"
       height={90}
     >
