@@ -34,7 +34,7 @@ export default {
           600: "#008FCC", // Bleu intense
           700: "#0077B3", // Bleu profond
           800: "#005F8A", // Bleu nuit
-          900: "#004766", // Bleu foncé
+          900: "#002848", // Bleu foncé
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",

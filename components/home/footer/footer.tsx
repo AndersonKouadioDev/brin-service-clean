@@ -6,10 +6,8 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <footer className="w-full">
-      
-
       {/* Main Footer Content */}
-      <div className="bg-blue-950 text-white py-8">
+      <div className="bg-[#002848] text-white px-8 py-10 ">
         <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo Section */}
           <div className="flex flex-col justify-start md:justify-start gap-4 items-start md:items-center">
@@ -51,7 +49,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">LÉGALES</h3>
             <ul className="space-y-6">
-              <li><a href="/politique" className="hover:text-primary-300">Support</a></li>
+              <li><a href="/support" className="hover:text-primary-300">Support</a></li>
               <li><a href="/politique" className="hover:text-primary-300">Politique de confidentialité</a></li>
               <li><a href="/condition" className="hover:text-primary-300">Termes et conditions</a></li>
             </ul>
@@ -63,7 +61,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Contacts</h3>
             {/* <div className="border-b w-20"></div> */}
             </div>
-            <ul className="space-y-6 border-t">
+            <ul className="space-y-6">
               <li className="hover:text-primary-300">(+225) 01 02 34 56 78</li>
               <li className="hover:text-primary-300">info@email.com</li>
               <li className="hover:text-primary-300">Abidjan Plateau, Immeuble Postel 7ème étage</li>
@@ -75,7 +73,7 @@ const Footer = () => {
       {/* Copyright Bar */}
         <div className="bg-white py-2 px-4 text-center text-primary text-sm">
           <p>
-            Copyright Chicken Nation, 2024 Tous droits réservés |{" "}
+            Copyright Brin Service Clean, 2025 Tous droits réservés |{" "}
             <span>
               Designed by{" "}
               <a 

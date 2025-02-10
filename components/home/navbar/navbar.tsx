@@ -13,7 +13,7 @@ import {
   Button,
   Input,
 } from "@nextui-org/react";
-import { Search } from "lucide-react";
+import { CalendarCheck, CalendarDays, Search } from "lucide-react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 
@@ -59,9 +59,6 @@ export default function Head() {
         />
         <NavbarBrand>
           <ChickenLogo />
-          <p className="hidden md:block font-bold text-white text-xl ml-2">
-            CHICKEN NATION
-          </p>
         </NavbarBrand>
       </NavbarContent>
 
@@ -85,21 +82,25 @@ export default function Head() {
             </Link>
           </NavbarItem>
         ))}
+        <NavbarItem>
+        <Input color="default" type="text" variant="underlined" label="Recherche" className="w-full" endContent={<Search className="w-5 h-5 text-black" />}/>
+        </NavbarItem>
       </NavbarContent>
 
       <NavbarContent justify="end">
+        {/* <NavbarItem>
+        <Input color="default" type="text" variant="underlined" label="Recherche" className="w-full" endContent={<Search className="w-5 h-5 text-black" />}/>
+        </NavbarItem> */}
         <NavbarItem>
-        <Input color="default" type="text" variant="underlined" label="Nombre de valises" className="w-full" endContent={<Search className="w-5 h-5 text-black" />}/>
-        </NavbarItem>
-        <NavbarItem>
-          <Button
-            as={Link}
-            className="hidden md:flex bg-secondary text-secondary-foreground font-semibold"
-            href="/login"
-            variant="flat"
-          >
-            Connexion
-          </Button>
+            <Button
+              as={Link}
+              className="hidden md:flex bg-secondary text-white gap-2"
+              href="/"
+              variant="flat"
+            >
+              <CalendarDays className="w-5 h-5" />
+              Réserver un brinner
+            </Button>
         </NavbarItem>
       </NavbarContent>
 
