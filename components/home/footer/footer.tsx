@@ -1,0 +1,96 @@
+import React from 'react';
+import { Facebook, Instagram, Linkedin, Twitter,  } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
+
+const Footer = () => {
+  return (
+    <footer className="w-full">
+      
+
+      {/* Main Footer Content */}
+      <div className="bg-blue-950 text-white py-8">
+        <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+          {/* Logo Section */}
+          <div className="flex flex-col justify-start md:justify-start gap-4 items-start md:items-center">
+            <div className="w-32 h-32 relative">
+              <Image
+                src="/assets/images/logo_2.png"
+                alt="Logo"
+                layout="fill" // Permet d'adapter l'image à la taille de son conteneur
+                objectFit="contain" // Équivalent à "object-contain" en CSS
+              />
+            </div>
+            <div className="flex flex-wrap md:flex-row gap-4 items-center">
+            <Link href="/" className="hover:opacity-80 transition-opacity">
+              <Facebook className="w-6 h-6 text-blue-700 hover:text-blue-900" />
+            </Link>
+            <Link href="/" className="hover:opacity-80 transition-opacity">
+              <Instagram className="w-6 h-6 text-blue-700 hover:text-blue-900" />
+            </Link>
+            <Link href="/" className="hover:opacity-80 transition-opacity">
+              <Twitter className="w-6 h-6 text-blue-700 hover:text-blue-900" />
+            </Link>
+            <Link href="/" className="hover:opacity-80 transition-opacity">
+              <Linkedin className="w-6 h-6 text-blue-700 hover:text-blue-900" />
+            </Link>
+          </div>
+          </div>
+
+          {/* Explorer Section */}
+          <div>
+            <h3 className="text-xl font-bold mb-4">Liens rapide</h3>
+            <ul className="space-y-6">
+              <li><a href="/accueil" className="hover:text-primary-300">A propos</a></li>
+              <li><a href="/restaurants" className="hover:text-primary-300">Services</a></li>
+              <li><a href="/histoire" className="hover:text-primary-300">Blog</a></li>
+            </ul>
+          </div>
+
+          {/* Légales Section */}
+          <div>
+            <h3 className="text-xl font-bold mb-4">LÉGALES</h3>
+            <ul className="space-y-6">
+              <li><a href="/politique" className="hover:text-primary-300">Support</a></li>
+              <li><a href="/politique" className="hover:text-primary-300">Politique de confidentialité</a></li>
+              <li><a href="/condition" className="hover:text-primary-300">Termes et conditions</a></li>
+            </ul>
+          </div>
+
+          {/* Nos Plats Section */}
+          <div>
+            <div className="flex flex-col gap-0">
+            <h3 className="text-xl font-bold mb-4">Contacts</h3>
+            {/* <div className="border-b w-20"></div> */}
+            </div>
+            <ul className="space-y-6 border-t">
+              <li className="hover:text-primary-300">(+225) 01 02 34 56 78</li>
+              <li className="hover:text-primary-300">info@email.com</li>
+              <li className="hover:text-primary-300">Abidjan Plateau, Immeuble Postel 7ème étage</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* Copyright Bar */}
+        <div className="bg-white py-2 px-4 text-center text-primary text-sm">
+          <p>
+            Copyright Chicken Nation, 2024 Tous droits réservés |{" "}
+            <span>
+              Designed by{" "}
+              <a 
+                href="https://lunion-lab.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-primary font-semibold underline hover:text-primary-700"
+              >
+                Lunions-Lab
+              </a>
+            </span>
+          </p>
+        </div>
+    </footer>
+  );
+};
+
+export default Footer;
