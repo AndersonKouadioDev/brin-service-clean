@@ -4,6 +4,8 @@ import Hero from "@/components/home/hero/hero";
 import Service from "@/components/home/service/service";
 import Solution from "@/components/home/solution/solution";
 import Statistic from "@/components/home/statistic/statistic";
+import Walk from "@/components/home/walk/walk";
+import Request from "@/components/home/request/request";
 
 
 
@@ -17,6 +19,8 @@ export default function Home() {
       <Service/>
       <Action/>
       <Solution/>
+      <Walk/>
+      <Request/>
     </div>
   );
 }
