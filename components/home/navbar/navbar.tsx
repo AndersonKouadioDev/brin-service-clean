@@ -38,7 +38,7 @@ export default function Head() {
 
   const menuItems = [
     { name: "ACCUEIL", link: "/" },
-    { name: "A PROPORS", link: "/propos" },
+    { name: "A PROPOS", link: "/propos" },
     { name: "SERVICES", link: "/services" },
     { name: "BLOG", link: "/blog" },
     { name: "CONTACT", link: "/contact" },

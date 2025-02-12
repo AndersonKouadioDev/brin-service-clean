@@ -1,4 +1,5 @@
 import { Partner } from "@/components/home/partner/partners";
+import Client from "@/components/propos/client/client";
 import Hero from "@/components/propos/hero/hero";
 import History from "@/components/propos/history/history";
 import Solution from "@/components/propos/solution/solution";
@@ -13,6 +14,7 @@ export default function Propos(){
             <Solution/>
             <Value/>
             <Partner/>
+            <Client/>
         </div>
     );
 }

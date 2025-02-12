@@ -42,7 +42,7 @@ export function Partner() {
         <div className="container mx-auto px-4 md:px-8 py-6">
         <div className="flex flex-col justify-center items-center text-center gap-2">
         <div className="text-primary text-lg font-bold">NOS PARTENAIRES</div>
-        <div className="text-gray-700 text-2xl font-black">CEUX QUI NOUS FONT CONFIANCE</div>
+        <div className="text-gray-700 text-2xl font-black pb-8">CEUX QUI NOUS FONT CONFIANCE</div>
       </div>
           <div className="relative mt-6 bg-[#1195FF] py-4">
             <Marquee className="max-w-full [--duration:40s]">
