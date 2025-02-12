@@ -6,8 +6,8 @@ export default function Service(){
     return(
         <div className="bg-white p-10">
             <div className="flex flex-col gap-6 py-20 items-center">
-                <div className="text-primary text-lg font-medium">NOS SERVICES</div>
-                <div className="text-primary-600 text-2xl font-bold">CE QUE NOUS OFFRONS</div>
+                <div className="text-primary text-lg font-bold">NOS SERVICES</div>
+                <div className="text-primary-600 text-2xl font-black">CE QUE NOUS OFFRONS</div>
                 <div className="flex flex-row gap-4 py-6 items-center">
                     <div className="relative flex flex-col justify-between gap-4 bg-gray-100 rounded-xl p-8">
                     <div className="rounded-full border border-gray-300 items-center self-center p-2 bg-white absolute -top-8">

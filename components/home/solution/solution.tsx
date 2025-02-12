@@ -31,8 +31,8 @@ export default function Solution() {
   return (
     <div className="bg-white p-10 mx-8">
       <div className="flex flex-col gap-6 py-20 items-center">
-        <div className="text-primary text-lg font-medium">NOS SERVICES</div>
-        <div className="text-primary-600 text-2xl font-bold">CE QUE NOUS OFFRONS</div>
+        <div className="text-primary text-lg font-bold">NOS SERVICES</div>
+        <div className="text-primary-600 text-2xl font-black">CE QUE NOUS OFFRONS</div>
         <div className="flex flex-row justify-between items-stretch gap-4 w-full">
           {/* Colonne de gauche avec les textes */}
           <div className="flex flex-col gap-4 w-1/2 justify-between">

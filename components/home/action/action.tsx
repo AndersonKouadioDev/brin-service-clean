@@ -35,7 +35,7 @@ export default function Action(){
 
     return(
                     <div className="bg-white">
-                    <div className="text-primary text-lg font-medium text-center py-6">
+                    <div className="text-primary text-lg font-bold text-center py-6">
                         NOS DOMAINES D'ACTION
                     </div>
                     <div className="relative w-full h-[500px]"> {/* Hauteur augmentée */}
