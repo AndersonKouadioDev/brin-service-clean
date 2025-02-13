@@ -1,6 +1,6 @@
 import React from 'react';
 import { Building2, Trees, Home, Building, WavesLadder } from 'lucide-react';
-import { Button } from '@nextui-org/react';
+import { Button, Link } from '@nextui-org/react';
 
 export default function ServiceSelection () {
   const services = [
@@ -45,7 +45,7 @@ export default function ServiceSelection () {
         ))}
       </div>
 
-      <Button className=" bg-primary mx-auto items-center self-center text-white py-6 px-20 rounded-lg hover:bg-pink-600 transition-colors">
+      <Button as={Link} href="/brinner/formulaire" className=" bg-primary mx-auto items-center self-center text-white py-6 px-20 rounded-lg hover:bg-pink-600 transition-colors">
         Suivant
       </Button>
     </div>
