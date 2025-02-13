@@ -65,10 +65,8 @@ export default function Cleaning(){
                         {clean.map((item) => (
                             <div className="flex flex-col gap-4 items-center justify-between bg-white text-black shadow-md rounded-3xl border border-gray-200 w-64 h-auto">
                             
-                            
-
                             {/* Contenu aligné */}
-                            <div className="flex flex-col flex-grow items-center justify-center text-center gap-2 pt-6">
+                            <div className="flex flex-col flex-grow items-center justify-center text-center gap-2 pt-6 px-3">
                                 <div className="text-lg font-semibold">{item.title}</div>
                                 <div className="text-sm font-extralight">{item.description}</div>
                             </div>
@@ -86,7 +84,7 @@ export default function Cleaning(){
                             </div>
 
                             {/* Image du bas */}
-                            <div className="overflow-hidden w-full h-16 rounded-b-3xl">
+                            <div className="overflow-hidden w-full h-16 rounded-b-3xl object-bottom">
                                 <Image
                                 src={item.picture}
                                 objectFit="cover"

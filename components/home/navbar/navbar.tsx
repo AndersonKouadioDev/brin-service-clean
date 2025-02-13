@@ -95,7 +95,7 @@ export default function Head() {
             <Button
               as={Link}
               className="hidden md:flex bg-secondary text-white gap-2"
-              href="/"
+              href="/brinner"
               variant="flat"
             >
               <CalendarDays className="w-5 h-5" />
