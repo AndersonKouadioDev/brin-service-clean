@@ -38,7 +38,7 @@ export default function Client(){
                     <div className="text-gray-700 text-2xl font-black">DERNIÈRES NOUVELLES</div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-6">
                       {news.map((item) => (
-                        <div className="flex flex-col gap-4 items-center justify-between p-6 bg-white hover:bg-secondary hover:text-white shadow-md rounded-lg border border-gray-200 relative">
+                        <div key={item.title} className="flex flex-col gap-4 items-center justify-between p-6 bg-white hover:bg-secondary hover:text-white shadow-md rounded-lg border border-gray-200 relative">
                         {/* <div className="flex flex-col gap-4 items-center justify-between p-6 bg-white hover:bg-secondary hover:text-white shadow-md rounded-lg border border-gray-200 relative w-64"> */}
                         {/* Image de profil centrée */}
                         <Image

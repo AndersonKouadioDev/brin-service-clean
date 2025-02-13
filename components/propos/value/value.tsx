@@ -22,7 +22,7 @@ export default function Value(){
                 <Leaf className="text-white w-24 h-24 bg-primary rounded-full p-4" />
                 <div className="h-auto w-44">
                 <h3 className="text-xl font-bold">DURABILITÉ</h3>
-                <p>Nous nous engageons à adopter des pratiques respectueuses de l'environnement afin de protéger à la fois votre environnement et la planète.</p>
+                <p>Nous nous engageons à adopter des pratiques respectueuses de l&apos;environnement afin de protéger à la fois votre environnement et la planète.</p>
                 </div>
             </div>
 

@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { Button, Input, DateInput, Checkbox, Tabs, Tab } from "@nextui-org/react";
-import { Calendar, MapPin, Briefcase, User, Home} from "lucide-react";
+import { Button, Input, Tabs, Tab } from "@nextui-org/react";
+import { Briefcase, Home} from "lucide-react";
 
 export default function Request(){
     return(

@@ -13,7 +13,7 @@ import {
   Button,
   Input,
 } from "@nextui-org/react";
-import { CalendarCheck, CalendarDays, Search } from "lucide-react";
+import { CalendarDays, Search } from "lucide-react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 

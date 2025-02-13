@@ -1,5 +1,5 @@
 "use client";
-import { cn } from "@/lib/utils";
+import Image from "next/image";
 import { Marquee } from "@/components/magicui/marquee";
 
 type Press = {
@@ -47,9 +47,11 @@ export function Partner() {
           <div className="relative mt-6 bg-[#1195FF] py-4">
             <Marquee className="max-w-full [--duration:40s]">
               {press.map((logo) => (
-                <img
+                <Image
                   key={logo.name}
                   src={logo.picture}
+                  height={40}
+                  width={160}
                   className="h-10 w-40 px-2 dark:brightness-0 dark:invert"
                   alt={`logo-${logo.name}`}
                 />

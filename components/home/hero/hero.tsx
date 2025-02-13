@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { Button, Input, DateInput, Checkbox } from "@nextui-org/react";
-import { Calendar, MapPin, Briefcase, User} from "lucide-react";
+import { Button } from "@nextui-org/react";
+
 
 export default function Hero() {
   return (

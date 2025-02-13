@@ -44,7 +44,7 @@ export default function Solution() {
             </h2>
             <ul className="list-disc space-y-6 list-inside text-base font-extralight leading-relaxed">
               <li>
-                Nos employés sont formés, assurés et leurs antécédents ont été vérifiés pour votre tranquillité d'esprit. Nous sommes une entreprise détenue et exploitée localement.
+                Nos employés sont formés, assurés et leurs antécédents ont été vérifiés pour votre tranquillité d&apos;esprit. Nous sommes une entreprise détenue et exploitée localement.
               </li>
               <li>
                 Nous proposons des plans de nettoyage personnalisés pour répondre à vos besoins spécifiques, garantissant votre entière satisfaction.
