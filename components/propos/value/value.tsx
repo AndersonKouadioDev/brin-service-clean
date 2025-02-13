@@ -18,7 +18,7 @@ export default function Value(){
             </div>
 
             {/* DURABILITÉ */}
-            <div className="flex flex-col items-center text-center gap-4 relative top-24">
+            <div className="flex flex-col items-center text-center gap-4 relative top-0 md:top-24">
                 <Leaf className="text-white w-24 h-24 bg-primary rounded-full p-4" />
                 <div className="h-auto w-44">
                 <h3 className="text-xl font-bold">DURABILITÉ</h3>

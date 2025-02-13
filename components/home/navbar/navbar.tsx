@@ -55,7 +55,7 @@ export default function Head() {
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Fermer le menu" : "Ouvrir le menu"}
-          className="sm:hidden text-white"
+          className="sm:hidden text-primary"
         />
         <NavbarBrand>
           <ChickenLogo />
@@ -113,14 +113,15 @@ export default function Head() {
           </NavbarMenuItem>
         ))}
         <NavbarItem>
-          <Button
-            as={Link}
-            className=" bg-secondary text-secondary-foreground font-semibold w-full"
-            href="#"
-            variant="flat"
-          >
-            Connexion
-          </Button>
+        <Button
+              as={Link}
+              className=" bg-secondary text-white gap-2 flex font-semibold w-full"
+              href="/brinner"
+              variant="flat"
+            >
+              <CalendarDays className="w-5 h-5" />
+              Réserver un brinner
+            </Button>
         </NavbarItem>
       </NavbarMenu>
     </Navbar>

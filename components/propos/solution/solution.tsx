@@ -19,7 +19,7 @@ export default function Solution() {
       {/* Contenu principal */}
       <div className="relative w-full max-w-6xl px-6 py-16 text-white">
         {/* Titre principal */}
-        <div className="text-center mt-6 mb-12">
+        <div className="text-center mt-10 md:mt-6 mb-12">
           <h1 className="text-3xl font-black">POURQUOI NOUS CHOISIR</h1>
         </div>
 

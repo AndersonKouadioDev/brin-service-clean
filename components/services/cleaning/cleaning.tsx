@@ -60,7 +60,11 @@ export default function Cleaning(){
         
       ]
     return(
-        <div className="bg-white flex flex-row justify-center items-center p-10">
+        <div className="bg-white flex flex-col justify-center items-center p-10">
+          <div className="flex flex-col gap-4 items-center text-center">
+              <div className="text-primary text-lg font-bold">DES PLANS DE NETTOYAGE ADAPTES A VOS BESOINS</div>
+              <div className="text-primary-600 text-2xl  font-black">DES SERVICES DE DESINFECTION SPECIALISES ADAPTES A VOS LOCAUX</div>
+          </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-6">
                         {clean.map((item) => (
                             <div className="flex flex-col gap-4 items-center justify-between bg-white text-black shadow-md rounded-3xl border border-gray-200 w-64 h-auto">

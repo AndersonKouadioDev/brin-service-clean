@@ -3,8 +3,8 @@ import Image from 'next/image';
 export default function About(){
     return(
         <div className="bg-white p-10">
-            <div className="flex flex-row gap-8 py-20 items-center">
-                <div className="flex flex-col gap-4 w-1/2">        
+            <div className="flex flex-col md:flex-row gap-8 py-20 items-center">
+                <div className="flex flex-col gap-4 w-full md:w-1/2 text-center md:text-start">        
                 <div className="text-primary text-lg font-bold">A PROPOS</div>
                 <div className="text-3xl font-black">
                     <span className="text-secondary">FACILE À NETTOYER</span> <br /> MAISON ET BUREAU

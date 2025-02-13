@@ -49,7 +49,7 @@ export default function Action(){
                         <div className="absolute w-full h-full bg-blue-400/30 px-4"></div>
                         {/* Ajout du blur */}
                         <div className="bg-black/30 backdrop-blur-md py-8 w-full absolute bottom-0 mx-auto">
-                        <div className="flex flex-row justify-center gap-4 items-center text-center mx-auto">
+                        <div className="flex flex-wrap md:flex-row justify-center gap-4 items-center text-center mx-auto">
                             {items.map((item) => (
                             <Chip key={item.name}>{item.name}</Chip>
                             ))}
