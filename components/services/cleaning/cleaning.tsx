@@ -60,7 +60,7 @@ export default function Cleaning(){
         
       ]
     return(
-        <div className="bg-white p-10">
+        <div className="bg-white flex flex-row justify-center items-center p-10">
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-6">
                         {clean.map((item) => (
                             <div className="flex flex-col gap-4 items-center justify-between bg-white text-black shadow-md rounded-3xl border border-gray-200 w-64 h-auto">

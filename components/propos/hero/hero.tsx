@@ -1,4 +1,4 @@
-import { Button } from "@nextui-org/react";
+import { Button, Link } from "@nextui-org/react";
 import { CalendarDays } from "lucide-react";
 import Image from "next/image";
 import BreadcrumbNav from "./breadcrumbs";
@@ -30,8 +30,9 @@ export default function Hero() {
           <div className="text-5xl font-black">A propos</div>
           <Button
 
+              as={Link}
               className="hidden md:flex p-4 bg-transparent border-2 border-white text-white gap-2"
-              href="/"
+              href="/brinner"
 
             >
               <CalendarDays className="w-5 h-5" />
