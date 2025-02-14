@@ -12,7 +12,7 @@ export default function NotFound() {
         height={300}
         className="mb-6"
       />
-      <p className="mt-4 text-xl font-semibold text-center text-black">Oops ! Nous rencontrons un problème avec la page</p>
+      <p className="mt-4 text-xl font-semibold text-center text-black">Contenu indisponible</p>
       <p className="mt-2 text-center text-gray-600">
       Nous vous suggérons de revenir en arrière et d&apos;essayer un autre lien
       </p>

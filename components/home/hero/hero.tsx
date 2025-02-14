@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Button } from "@nextui-org/react";
+import Link from "next/link";
 
 
 export default function Hero() {
@@ -23,17 +24,16 @@ export default function Hero() {
         <div className="relative flex items-start text-start justify-start left-0 md:left-12 p-10 mt-8 gap-20 max-w-5xl w-full ">
           {/* Partie gauche : Texte et formulaire */}
           <div className="w-full md:w-1/2 flex flex-col gap-8">
-            <h2 className="text-xl font-extralight text-white">Un nettoyage de qualité au juste prix.</h2>
             <p className="text-white font-bold mt-3 text-4xl">
             Services de nettoyage spécialisés, efficaces et minutieux
             </p>
             <h2 className="text-xl font-extralight text-white">Nous effectuons des tâches de nettoyage en utilisant le moins de temps et d’énergie possible.</h2>
 
             <div className="flex flex-row gap-4">
-            <Button radius="md" className="mt-6 bg-white w-1/2 text-primary p-6">
+            <Button as={Link} radius="md" href="#request" className="mt-6 bg-white w-1/2 text-primary p-6">
               Demander un devis
             </Button>
-            <Button color="primary" variant="bordered" radius="md" className="mt-6 w-1/2 text-white p-6">
+            <Button as={Link} href="/services" radius="md" className="mt-6 w-1/2 border-2 bg-transparent border-white text-white p-6">
               Voir tous les services
             </Button>
             </div>

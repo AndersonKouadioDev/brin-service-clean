@@ -6,7 +6,7 @@ import { Briefcase, Home} from "lucide-react";
 
 export default function Request(){
     return(
-    <div className="relative flex flex-col items-center justify-between w-full min-h-screen overflow-hidden">
+    <div id="request" className="relative flex flex-col items-center justify-between w-full min-h-screen overflow-hidden">
       {/* Image de fond */}
       <Image
         className="absolute inset-0 w-full h-full object-cover"
@@ -19,9 +19,9 @@ export default function Request(){
       <div className="absolute w-full h-full bg-black/50 px-4"></div>
 
       {/* Contenu principal */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white text-xl sm:text-2xl lg:text-2xl font-semibold gap-20 lg:gap-32 mb-4">
-        <div>OBTENEZ UN DEVIS GRATUITEMENT</div>
-        <div className="relative flex items-start text-start justify-between p-10 mt-8 gap-20 max-w-5xl w-full ">
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white text-xl sm:text-2xl lg:text-2xl font-semibold gap-20 lg:gap-32 mb-10">
+        <div className="mt-28 relative top-0 md:top-10">OBTENEZ UN DEVIS GRATUITEMENT</div>
+        <div className="relative flex items-start text-start justify-between p-10 mt-0 gap-20 max-w-5xl w-full ">
           {/* Partie gauche : Texte et formulaire */}
           <div className="w-full md:w-1/2 bg-white p-2 rounded-xl">
             <div className="mt-6 grid grid-cols-1 gap-4 ">
@@ -43,7 +43,7 @@ export default function Request(){
           <div className="w-1/2 relative bottom-0 hidden md:flex items-center overflow-hidden justify-center">
             <Image
               src="/assets/images/illustrations/page-accueil/hero.png"
-              alt="Voiture Kairos"
+              alt="Picture"
               width={600}
               height={600}
               className="object-contain overflow-hidden"
