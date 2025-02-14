@@ -39,9 +39,9 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Liens rapide</h3>
             <ul className="space-y-6">
-              <li><a href="/accueil" className="hover:text-primary-300">A propos</a></li>
-              <li><a href="/restaurants" className="hover:text-primary-300">Services</a></li>
-              <li><a href="/histoire" className="hover:text-primary-300">Blog</a></li>
+              <li><Link href="/propos" className="hover:text-primary-300">A propos</Link></li>
+              <li><Link href="/services" className="hover:text-primary-300">Services</Link></li>
+              <li><Link href="/blog" className="hover:text-primary-300">Blog</Link></li>
             </ul>
           </div>
 
@@ -49,9 +49,9 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">LÉGALES</h3>
             <ul className="space-y-6">
-              <li><a href="/support" className="hover:text-primary-300">Support</a></li>
-              <li><a href="/politique" className="hover:text-primary-300">Politique de confidentialité</a></li>
-              <li><a href="/condition" className="hover:text-primary-300">Termes et conditions</a></li>
+              <li><Link href="/support" className="hover:text-primary-300">Support</Link></li>
+              <li><Link href="/politique" className="hover:text-primary-300">Politique de confidentialité</Link></li>
+              <li><Link href="/condition" className="hover:text-primary-300">Termes et conditions</Link></li>
             </ul>
           </div>
 
@@ -76,14 +76,14 @@ const Footer = () => {
             Copyright Brin Service Clean, 2025 Tous droits réservés |{" "}
             <span>
               Designed by{" "}
-              <a 
+              <Link 
                 href="https://lunion-lab.com" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-primary font-semibold underline hover:text-primary-700"
               >
                 Lunions-Lab
-              </a>
+              </Link>
             </span>
           </p>
         </div>
