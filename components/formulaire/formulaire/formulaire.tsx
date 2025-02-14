@@ -65,7 +65,10 @@ export default function Formulaires() {
         </div>
       </div>
 
-      <Button type="submit" className="w-full bg-primary hover:bg-pink-700 text-white">Réserver</Button>
+      <div className="flex justify-center">
+        <Button type="submit" className="w-48 bg-primary hover:bg-pink-700 text-white">Réserver</Button>
+      </div>
+      
     </form>
   );
 }

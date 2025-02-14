@@ -1,6 +1,7 @@
 import React from 'react';
 import { Building2, Trees, Home, Building, WavesLadder } from 'lucide-react';
-import { Button, Link } from '@nextui-org/react';
+import { Button } from '@nextui-org/react';
+import Link from 'next/link';
 
 export default function ServiceSelection () {
   const services = [
@@ -36,7 +37,7 @@ export default function ServiceSelection () {
       
       <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
         {prestations.map((prestation) => (
-          <div key={prestation.id} className="p-4 rounded-lg border-2 border-gray-200 hover:border-cyan-200 transition-all">
+          <div key={prestation.id} className="p-4 rounded-lg border-2 border-gray-200 hover:border-secondary transition-all">
             <div className="flex flex-row items-center text-center">
               <div className="mb-2 text-secondary">{prestation.icon}</div>
               <p className="text-sm whitespace-pre-line">{prestation.title}</p>
@@ -45,9 +46,11 @@ export default function ServiceSelection () {
         ))}
       </div>
 
+      <div className="flex justify-center">
       <Button as={Link} href="/brinner/formulaire" className=" bg-primary mx-auto items-center self-center text-white py-6 px-20 rounded-lg hover:bg-pink-600 transition-colors">
         Suivant
       </Button>
+      </div>
     </div>
   );
 };

@@ -1,7 +1,8 @@
-import { Button, Link } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 import { CalendarDays } from "lucide-react";
 import Image from "next/image";
 import BreadcrumbNav from "./breadcrumbs";
+import Link from "next/link";
 
 
 

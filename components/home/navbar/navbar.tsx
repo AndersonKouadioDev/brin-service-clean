@@ -9,14 +9,13 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
-  Link,
   Button,
   Input,
 } from "@nextui-org/react";
 import { CalendarDays, Search } from "lucide-react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-
+import Link from "next/link";
 
 export const ChickenLogo = () => {
   return (
