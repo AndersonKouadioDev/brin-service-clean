@@ -17,6 +17,7 @@ import { CalendarDays, Search } from "lucide-react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 
+
 export const ChickenLogo = () => {
   return (
     <Link href="/" >
@@ -68,13 +69,13 @@ export default function Head() {
             key={item.name}
             className={`${
               pathname === item.link
-                ? "bg-primary rounded-xl  text-white py-1 px-2"
+                ? "bg-primary rounded-xl text-white py-1 px-2"
                 : "text-white"
             }`}
           >
             <Link
               href={item.link}
-              className={`px-4 py-2 rounded hover:bg-white/40  transition-all ${
+              className={`px-4 py-2 rounded   ${
                 pathname === item.link ? "text-white" : "text-primary"
               }`}
             >
