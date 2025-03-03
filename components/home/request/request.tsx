@@ -23,7 +23,7 @@ export default function Request(){
         <div className="mt-28 relative top-0 md:top-10">OBTENEZ UN DEVIS GRATUITEMENT</div>
         <div className="relative flex items-start text-start justify-between p-10 mt-0 gap-20 max-w-5xl w-full ">
           {/* Partie gauche : Texte et formulaire */}
-          <div className="w-full md:w-1/2 bg-white p-2 rounded-xl">
+          <div className="w-full md:w-1/2 mx-auto bg-white p-2 rounded-xl">
             <div className="mt-6 grid grid-cols-1 gap-4 ">
             <Tabs aria-label="Tabs variants" variant="solid" className="w-full text-primary">
                 <Tab key="residentiel" title={<div className="flex items-center gap-2 text-primary"><Home className="w-5 h-5" /> Résidentiel</div>} className="text-primary" />
@@ -40,7 +40,7 @@ export default function Request(){
           </div>
 
           {/* Partie droite : Image */}
-          <div className="w-1/2 relative bottom-0 hidden md:flex items-center overflow-hidden justify-center">
+          <div className="w-1/2 relative bottom-0 hidden lg:flex items-center overflow-hidden justify-center">
             <Image
               src="/assets/images/illustrations/page-accueil/hero.png"
               alt="Picture"
